@@ -3,3 +3,4 @@
 .env
 .DS_Store
 config/app.php
+config/services.php

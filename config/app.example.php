@@ -135,15 +135,21 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
+		
+		/*
+		 * Vendor Service Providers
+		 */
+		 'Laravel\Socialite\SocialiteServiceProvider',
 
 		/*
 		 * Application Service Providers...
 		 */
-		'Laravel5-Starter\Providers\AppServiceProvider',
-		'Laravel5-Starter\Providers\BusServiceProvider',
-		'Laravel5-Starter\Providers\ConfigServiceProvider',
-		'Laravel5-Starter\Providers\EventServiceProvider',
-		'Laravel5-Starter\Providers\RouteServiceProvider',
+		'App\Providers\AppServiceProvider',
+		'App\Providers\BusServiceProvider',
+		'App\Providers\ConfigServiceProvider',
+		'App\Providers\EventServiceProvider',
+		'App\Providers\RouteServiceProvider',
+		
 
 	],
 
